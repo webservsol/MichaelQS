@@ -1,0 +1,28 @@
+User:
+id
+name
+email
+password
+admin role
+picture
+
+Blog:
+id 
+#userid (can get name)
+text
+#idcat
+
+Categories:
+id
+name
+
+Comments:
+id
+#idUser,idBlog
+text
+
+Likes:  
+#idUser,idBlog
+
+Views: 
+#idUser,idBlog
