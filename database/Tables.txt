@@ -4,13 +4,18 @@ name
 email
 password
 admin role
-picture
+profile picture
 
 Blog:
 id 
 #userid (can get name)
 text
 #idcat
+
+Images:
+id 
+#idBlog
+image
 
 Categories:
 id
